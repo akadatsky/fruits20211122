@@ -11,13 +11,10 @@ public class Fruit {
     private double pricePerKg;
     private int weight;
 
-    public Fruit() {
-    }
-
     public Fruit(Type type, Color color, double pricePerKg, int weight) {
         this.type = type;
         this.color = color;
-        this.pricePerKg = pricePerKg;
+        this.pricePerKg = Math.round(pricePerKg * 100.0) / 100.0;
         this.weight = weight;
     }
 
@@ -42,7 +39,7 @@ public class Fruit {
     }
 
     public void setPricePerKg(double pricePerKg) {
-        this.pricePerKg = pricePerKg;
+        this.pricePerKg = Math.round(pricePerKg * 100.0) / 100.0;
     }
 
     public int getWeight() {
@@ -62,5 +59,4 @@ public class Fruit {
                 ", weight=" + weight +
                 '}';
     }
-
 }
