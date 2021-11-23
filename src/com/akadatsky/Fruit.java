@@ -14,8 +14,8 @@ public class Fruit {
     public Fruit(Type type, Color color, double pricePerKg, int weight) {
         this.type = type;
         this.color = color;
-        this.pricePerKg = Math.round(pricePerKg * 100.0) / 100.0;
         this.weight = weight;
+        setPricePerKg(pricePerKg);
     }
 
     public Type getType() {
