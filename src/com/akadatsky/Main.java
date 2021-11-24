@@ -29,7 +29,7 @@ public class Main {
             Fruit fruit = fruits.get(i);
             sum += fruit.getPricePerKg() * fruit.getWeight() / 1000.0;
         }
-        System.out.println(sum);
+        System.out.printf("%.02f",sum);
 
     }
 }
