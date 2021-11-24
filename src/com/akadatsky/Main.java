@@ -13,9 +13,9 @@ public class Main {
         redApple.setWeight(232);
         redApple.setPricePerKg(11.5);
         System.out.println(redApple);
-
         Fruit greenApple = new Fruit(Fruit.Type.APPLE, Color.GREEN, 22.90, 230);
-
+        Fruit lemon = new Fruit(Fruit.Type.LEMON, Color.YELLOW, 30.90, 228);
+        Fruit banana = new Fruit(Fruit.Type.BANANA, Color.YELLOW, 28.80, 230)
         List<Fruit> fruits = new ArrayList<>();
         fruits.add(redApple);
         fruits.add(greenApple);
@@ -29,7 +29,7 @@ public class Main {
             Fruit fruit = fruits.get(i);
             sum += fruit.getPricePerKg() * fruit.getWeight() / 1000.0;
         }
-        System.out.println(sum);
+        System.out.printf("%.02f",sum);
 
     }
 }
