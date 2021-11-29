@@ -1,4 +1,4 @@
-package com.akadatsky;
+package com.sviatukhov;
 
 public class Fruit {
 
