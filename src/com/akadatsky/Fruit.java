@@ -1,6 +1,7 @@
 package com.akadatsky;
 
 public class Fruit {
+
     public enum Type {
         APPLE, BANANA, LEMON
     }
@@ -10,8 +11,6 @@ public class Fruit {
     private double pricePerKg;
     private int weight;
 
-    public Fruit() {
-    }
 
     public Fruit(Type type, Color color, double pricePerKg, int weight) {
         this.type = type;

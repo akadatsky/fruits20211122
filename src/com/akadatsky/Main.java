@@ -7,13 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Fruit redApple = new Fruit();
-        redApple.setType(Fruit.Type.APPLE);
-        redApple.setColor(Color.RED);
-        redApple.setWeight(232);
-        redApple.setPricePerKg(11.5);
+        Fruit redApple = new Fruit(Fruit.Type.APPLE, Color.RED, 11.5, 232);
         System.out.println(redApple);
-
         Fruit greenApple = new Fruit(Fruit.Type.APPLE, Color.GREEN, 22.90, 230);
         System.out.println(greenApple);
         Fruit lemon = new Fruit(Fruit.Type.LEMON, Color.YELLOW, 30.90, 228);
