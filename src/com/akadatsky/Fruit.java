@@ -1,7 +1,6 @@
 package com.akadatsky;
 
 public class Fruit {
-
     public enum Type {
         APPLE, BANANA, LEMON
     }
@@ -56,11 +55,11 @@ public class Fruit {
     @Override
     public String toString() {
         return "Fruit{" +
-                "type=" + type +
-                ", color=" + color +
-                ", pricePerKg=" + pricePerKg +
-                ", weight=" + weight +
-                '}';
+               "type=" + type +
+               ", color=" + color +
+               ", pricePerKg=" + pricePerKg +
+               ", weight=" + weight +
+               '}';
     }
-
 }
+
