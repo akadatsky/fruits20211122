@@ -11,8 +11,6 @@ public class Fruit {
     private double pricePerKg;
     private int weight;
 
-    public Fruit() {
-    }
 
     public Fruit(Type type, Color color, double pricePerKg, int weight) {
         this.type = type;
@@ -56,11 +54,11 @@ public class Fruit {
     @Override
     public String toString() {
         return "Fruit{" +
-                "type=" + type +
-                ", color=" + color +
-                ", pricePerKg=" + pricePerKg +
-                ", weight=" + weight +
-                '}';
+               "type=" + type +
+               ", color=" + color +
+               ", pricePerKg=" + pricePerKg +
+               ", weight=" + weight +
+               '}';
     }
-
 }
+
