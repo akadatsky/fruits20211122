@@ -22,9 +22,6 @@ public class Main {
         fruits.add(lemon);
         fruits.add(banana);
 
-        // lemon  228g, 30.90
-        // banana  230g, 28.80
-
         double sum = 0;
 
         for (int i = 0; i < fruits.size(); i++) {
